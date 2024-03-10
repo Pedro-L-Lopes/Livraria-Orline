@@ -1,0 +1,75 @@
+main {
+  height: 99vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+section img {
+  margin: 20px;
+}
+
+.infos {
+  max-width: 50%;
+  margin: 20px;
+}
+
+.infos h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.infos h3 {
+  font-size: 1rem;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.infos-detalhes {
+  display: flex;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.infos-detalhes span {
+  color: rgb(33, 84, 235);
+}
+
+.infos h2 {
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-top: 5px;
+}
+
+.compra {
+  margin: 20px;
+}
+
+.preco {
+  font-size: 1.7rem;
+  margin-bottom: 5px;
+}
+
+.estoque {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.finalziar-compra {
+  padding: 8px;
+  text-align: center;
+  color: white;
+  background-color: rgb(5, 39, 54);
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  transition: all 0.3s ease;
+}
+
+.finalziar-compra:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}

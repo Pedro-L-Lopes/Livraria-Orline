@@ -1,0 +1,85 @@
+main {
+  height: 99vh;
+}
+
+#title {
+  max-width: 20%;
+  color: white;
+  margin: 5px 0px 0px 0px;
+  border-radius: 0px 5px 5px 0px;
+  padding: 25px;
+  font-size: 1.4rem;
+  background-color: rgb(5, 39, 54);
+}
+
+#livros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.livro {
+  color: black;
+  width: 250px;
+  height: 350px;
+  padding: 10px;
+  background-color: rgba(248, 248, 248, 0.831);
+}
+
+.livro-imagem {
+  width: 100%;
+  height: 35vh;
+  object-fit: contain;
+}
+
+.livro h1 {
+  height: 22%;
+  text-align: justify;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.livro h1:hover {
+  color: rgb(5, 39, 54);
+  transition: all 0.3s ease;
+}
+
+.livro-autor {
+  font-size: 0.7rem;
+}
+
+.livro-preco {
+  margin-top: 2px;
+}
+
+.livro-preco span {
+  font-size: 1rem;
+}
+
+.em-breve {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.em-breve h1 {
+  color: black;
+  text-align: center;
+}
+
+.em-breve a {
+  color: white;
+  background-color: rgb(5, 39, 54);
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.em-breve a:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}

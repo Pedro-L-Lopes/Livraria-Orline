@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(5, 39, 54);
+  color: white;
+  padding: 18px;
+}
+
+header img {
+  width: 3%;
+  filter: invert(100%);
+}
+
+nav a {
+  color: white;
+  font-size: x-large;
+  padding: 5px;
+}
+
+nav a:hover {
+  opacity: 70%;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  background-color: rgb(5, 39, 54);
+  color: white;
+}
+
+.redesocial {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+
+.redesocial a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.redesocial img {
+  width: 30px;
+  filter: invert(100%);
+}
+
+.direitos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.direitos a {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.direitos img {
+  width: 25px;
+  filter: invert(100%);
+}

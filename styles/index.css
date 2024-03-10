@@ -1,0 +1,101 @@
+/* Title */
+#title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background-image: url("../images/indexBackgroung.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-size: 1rem;
+}
+
+.title-logo-search {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  background-color: rgba(184, 191, 194, 0.676);
+  padding: 5px;
+  border-radius: 5px;
+  margin: 8px;
+  transition: all 0.3s ease;
+}
+
+.title-logo-search:hover {
+  background-color: rgba(255, 255, 255, 0.685);
+  cursor: text;
+  transition: all 0.3s ease;
+}
+
+.title-logo-search img {
+  width: 20px;
+  filter: invert(100%);
+}
+
+input {
+  border: none;
+  background: transparent;
+  outline: none;
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+input::placeholder {
+  color: white;
+}
+
+/* Boas vindas */
+#sobre {
+  display: flex;
+  margin: 5%;
+}
+
+#sobre-img {
+  position: relative;
+  width: 35%;
+  height: 35vh;
+  border-radius: 10px;
+  background-image: url("../images/26102.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+#sobre-img:hover {
+  opacity: 1;
+  box-shadow: 1px 1px 1px black;
+  transition: all 0.3s ease;
+}
+
+#sobre-img h2 {
+  position: absolute;
+  text-align: center;
+  font-size: larger;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgb(5, 39, 54);
+  border-radius: 10px 10px 0px 00px;
+}
+
+#sobre p {
+  max-width: 65%;
+  margin-left: 35px;
+  text-align: justify;
+  font-weight: bold;
+}
